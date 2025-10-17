@@ -16,7 +16,7 @@
 
 int main(){
 
-  system("color f0");
+  system("color a0");
 
   int theMagicByte = 0;
 
