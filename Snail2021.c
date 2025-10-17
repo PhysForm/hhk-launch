@@ -16,8 +16,6 @@
 
 int main(){
 
-  system("color a0");
-
   int theMagicByte = 0;
 
   int resin86 = 0; // If resourceHacker is in x86 folder
@@ -40,39 +38,7 @@ int main(){
   FILE *Fin2;
 
   printf(
-"This program was written by SnailMath (aka Pascal, aka Oberschnecke)\n\
-This project was inspired by an article from the6p4c.\n\
-This program uses the program \"Resource Hacker\".\n\
-This program was written in C and compiled using \"gcc\" from \"minGW\".\n\
-This program uses the libary \"zlib.h\" (mingw32-libz-dev).\n\
-\n\
-My first Video about this: Video: https://www.youtube.com/watch?v=Llibqwt7Jsg\n\
-\n\
-=============================================================================\n\
-\n\
-This program modifies the firmware of the Calculator.\n\
-There is a Youtube video explaining the process on my Youtube channel.\n\
-Channel: https://www.youtube.com/channel/UC4MX6_QKFwnA2sG9eGwqcjA\n\
-hollyhock-2 on GitHub: https://github.com/SnailMath/hollyhock-2\n\
-Snail202x   on GitHub: https://github.com/SnailMath/Snail202x\n\
-\n\
-If you have questions, ask me on Discord: https://discord.com/invite/fWxZXvy\n\
-\n\
-This whole project was inspired by an article by The6p4c. This is their page:\n\
-https://the6p4c.github.io/2018/01/15/hacking-the-gc-part-1.html\n\
-I'm not affiliated with him. I'm just a YouTube subscriber of them.\n\
-\n\
-So, first download the official updater. You need the correct version.\n\
-If you are installing hollyhock-2, you need the version OSver2_01_2000 .\n\
-You can download this specific version here:\n\
-     tiplanet.org/forum/archives_voir.php?id=1044960 \n\
-Download it, extract it and start it.\n\
-This should start the installation of the actual clculator updater.\n\
-You need to press OK and Agree multiple times.\n\
-When it asks you to connect the calculator, just leave it open and come back\n\
-to this window. We will extract the firmware from the temp files.\n\
-\n\
-[press ENTER to continue...]\n");
+"This program was modified by @PhysForm on Github. It is to modify ");
   char str[4];
   fgets(str, 3,stdin);
   if (str[0]=='q') return 0;
